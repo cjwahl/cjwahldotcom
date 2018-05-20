@@ -1,0 +1,36 @@
+﻿
+body{
+    background:url("../images/tan.jpg")
+}
+.main-content{
+    margin-top: 15%;
+    display:flex;
+    justify-content:center;
+}
+.main-text{
+   align-self:center;
+}
+.head{
+    font-size:6rem;
+    @media (max-width: 550px) { 
+        font-size: 2.5rem;
+    }
+}
+.sub-head{
+    font-size: 2em;
+    @media (max-width: 550px) { 
+        font-size: 1.5rem;
+    }
+}
+.text-center {
+   text-align:center;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+hr {
+    border-bottom:1px solid black;
+}
+
